@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Search Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+    <h1>Search Visualizer</h1>
+    <p>Understand how search algorithms work step by step.</p>
+
+    <input id="arr" placeholder="Array: 2,4,6,8,10">
+    <input id="key" type="number" placeholder="Target">
+
+    <button onclick="linearStart()">Linear</button>
+    <button onclick="binaryStart()">Binary</button>
+    <button onclick="step()">Next</button>
+
+    <div id="view"></div>
+    <div id="text">Start an algorithm.</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
